@@ -6,6 +6,8 @@
 
     <title>Zac Warner's Portfolio</title>
 
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </Head>
@@ -13,39 +15,40 @@
 <body>
     <Header>
 
-        <h1>Zac Warner</h1>
+        <section class="sitenav">
 
-        <a href="index.html">About</a>
+            <h1>Zac Warner</h1>
 
-        <a href="portfolio.html">Portfolio</a>
+            <a class="sitenav" href="contact.html">Contact</a>
 
-        <a href="contact.html">Contact</a>
+            <a class="sitenav" href="portfolio.html">Portfolio</a>
 
-    </Header>
-
-    <div>
-        <section>
-
-            <h2>Contact Me</h2>
+            <a class="sitenav" href="index.html">About</a>
 
         </section>
 
-        <form action="action_page.php">
+    </Header>
 
-            <label for="name">Your Name</label>
-            <input type="text" id="name" name="name" placeholder="Your name here...">
+    <div class="wrapper">
+        <section>
 
-            <label for="emailaddress">Email</label>
-            <input type="text" id="email" name="email" placeholder="Please enter your email here..">
+            <h2>Contact me</h2>
 
-            <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Please leave your message here..." style="height: 200px">
-            </textarea>
+            <form action="action_page.php">
 
-            <input type="submit" value="Submit">
-
-        </form>
-
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name here...">
+    
+                <label for="emailaddress">Email</label>
+                <input type="text" id="email" name="email" placeholder="Please enter your email here..">
+    
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Please leave your message here..." style="height: 200px">
+                </textarea>
+    
+                <input type="submit" value="Submit">
+    
+            </form>
 
     </div>
 </body>

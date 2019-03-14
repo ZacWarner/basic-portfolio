@@ -23,7 +23,7 @@ header {
 h1 {
     margin: 2% 0 0;
     height: 5%;
-    padding: 14px 16px;
+    padding: 17px 16px;
     background-color: #4aaaa5;
     color: #ffffff;
     width: 20%;
@@ -46,7 +46,7 @@ h1 {
     float: right;
     display: block;
     color: #777777;
-    padding: 15px 16px;
+    padding: 17px 16px;
 }
 
 .sitenav a:hover {
